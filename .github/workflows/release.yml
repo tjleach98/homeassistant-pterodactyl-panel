@@ -1,0 +1,25 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release_zip_file:
+    name: Publish HACS zip file asset
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Compress Custom Component
+        run: |
+          cd ${{ github.workspace }}/custom_components/pterodactyl-panel
+          zip pterodactyl-panel.zip -r ./
+
+      - uses: ncipollo/release-action@v1.13.0
+        with:
+          allowUpdates: true
+          generateReleaseNotes: true
+          artifacts: ${{ github.workspace }}/custom_components/pterodactyl-panel/pterodactyl-panel.zip

@@ -1,0 +1,93 @@
+{
+    "custom": {
+      "config_flow": {
+        "data": {
+          "host": "Host",
+          "api_key": "API key"
+        },
+        "error": {
+          "cannot_connect": "Failed to connect",
+          "invalid_auth": "Invalid authentication",
+          "unknown": "Unexpected error"
+        },
+        "abort": {
+          "already_configured_service": "Service is already configured",
+          "reauth_successful": "Re-authentication was successful"
+        }
+      }
+    },
+    "config": {
+      "step": {
+        "user": {
+          "data": {
+            "host": "Host",
+            "api_key": "API key"
+          }
+        },
+        "reauth_confirm": {
+          "description": "The API key is invalid.",
+          "title": "Reauthenticate Integration",
+          "data": {
+              "api_key": "API key"
+          }
+        }
+      },
+      "error": {
+        "cannot_connect": "Failed to connect",
+        "invalid_auth": "Invalid authentication",
+        "unknown": "Unexpected error"
+      },
+      "abort": {
+        "already_configured": "Service is already configured",
+        "reauth_successful": "Re-authentication was successful"
+      }
+    },
+    "entity": {
+      "binary_sensor": {
+        "pterodactyl_is_running": {
+          "name": "Is Running?"
+        },
+        "pterodactyl_is_node_under_maintenance": {
+          "name": "Is Node Under Maintenance?"
+        }
+      },
+      "sensor": {
+        "pterodactyl_current_state": {
+          "name": "Current State"
+        },
+        "pterodactyl_node": {
+          "name": "Node"
+        },
+        "pterodactyl_uptime": {
+          "name": "Uptime"
+        },
+        "pterodactyl_cpu": {
+          "name": "CPU Absolute"
+        },
+        "pterodactyl_memory": {
+          "name": "Memory Usage"
+        },
+        "pterodactyl_disk": {
+          "name": "Disk Usage"
+        },
+        "pterodactyl_network_tx": {
+          "name": "Upload Network Usage"
+        },
+        "pterodactyl_network_rx": {
+          "name": "Download Network Usage"
+        }
+      },
+      "button": {
+        "pterodactyl_server_start": {
+        "name": "Start"
+        },
+        "pterodactyl_server_stop": {
+            "name": "Stop"
+        },
+        "pterodactyl_server_restart": {
+            "name": "Restart"
+        }
+      }
+    }
+  }
+  
