@@ -5,11 +5,11 @@
     "@tjleach98"
   ],
   "config_flow": true,
-  "integration_type": "service",
   "dependencies": [],
   "documentation": "https://github.com/tjleach98/homeassistant-pterodactyl-panel",
-  "issue_tracker": "https://github.com/tjleach98/homeassistant-pterodactyl-panel/issues",
   "iot_class": "cloud_polling",
+  "integration_type": "service",
+  "issue_tracker": "https://github.com/tjleach98/homeassistant-pterodactyl-panel/issues",
   "requirements": [
     "py-dactyl==v2.0.4"
   ],
