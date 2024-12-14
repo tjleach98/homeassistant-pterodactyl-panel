@@ -1,6 +1,6 @@
 """Constants for the Pterodactyl Panel integration."""
 
-DOMAIN = "pterodactyl-panel"
+DOMAIN = "pterodactyl_panel"
 PROPER_NAME = "Pterodactyl Panel"
 
 PTERODACTYL_ATTRIBUTES = "attributes"

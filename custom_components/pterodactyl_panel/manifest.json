@@ -1,5 +1,5 @@
 {
-  "domain": "pterodactyl-panel",
+  "domain": "pterodactyl_panel",
   "name": "Pterodactyl Panel",
   "codeowners": [
     "@tjleach98"
