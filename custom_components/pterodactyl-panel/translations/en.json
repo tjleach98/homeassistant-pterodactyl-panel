@@ -1,21 +1,4 @@
 {
-    "custom": {
-      "config_flow": {
-        "data": {
-          "host": "Host",
-          "api_key": "API key"
-        },
-        "error": {
-          "cannot_connect": "Failed to connect",
-          "invalid_auth": "Invalid authentication",
-          "unknown": "Unexpected error"
-        },
-        "abort": {
-          "already_configured_service": "Service is already configured",
-          "reauth_successful": "Re-authentication was successful"
-        }
-      }
-    },
     "config": {
       "step": {
         "user": {
