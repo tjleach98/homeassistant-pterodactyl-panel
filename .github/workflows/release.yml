@@ -15,11 +15,11 @@ jobs:
 
       - name: Compress Custom Component
         run: |
-          cd ${{ github.workspace }}/custom_components/pterodactyl-panel
+          cd ${{ github.workspace }}/custom_components/pterodactyl_panel
           zip pterodactyl-panel.zip -r ./
 
       - uses: ncipollo/release-action@v1.13.0
         with:
           allowUpdates: true
           generateReleaseNotes: true
-          artifacts: ${{ github.workspace }}/custom_components/pterodactyl-panel/pterodactyl-panel.zip
+          artifacts: ${{ github.workspace }}/custom_components/pterodactyl_panel/pterodactyl-panel.zip

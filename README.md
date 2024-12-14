@@ -11,7 +11,7 @@ The source code for this project is influenced by the [Proxmox VE](https://githu
 
 ## Installation
 ### Manual
-Place the entire `custom_components/pterodactyl-panel` folder in this repo inside the `config/custom_components/` folder of your Home Assistant instance. 
+Place the entire `custom_components/pterodactyl_panel` folder in this repo inside the `config/custom_components/` folder of your Home Assistant instance. 
 
 If `custom_components` doesn't exist, create it. Click [here](https://developers.home-assistant.io/docs/creating_integration_file_structure/#where-home-assistant-looks-for-integrations) for more details.
 
