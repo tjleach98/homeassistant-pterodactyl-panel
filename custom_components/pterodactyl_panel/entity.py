@@ -1,5 +1,7 @@
 """Base entity for the Pterodactyl Panel integration."""
 
+from dataclasses import dataclass
+
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.helpers import device_registry as dr
 from homeassistant.helpers.device_registry import DeviceInfo
@@ -16,6 +18,7 @@ from .const import (
 from .coordinator import PterodactylServerCoordinator
 
 
+@dataclass(frozen=True, kw_only=True)
 class PterodactylEntityDescription(EntityDescription):
     """Describe a Pterodactyl Panel entity."""
 

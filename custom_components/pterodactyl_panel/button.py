@@ -15,7 +15,7 @@ from .entity import PterodactylEntity, PterodactylEntityDescription
 _LOGGER = logging.getLogger(__name__)
 
 
-@dataclass
+@dataclass(frozen=True, kw_only=True)
 class PterodactylButtonEntityDescription(
     PterodactylEntityDescription, ButtonEntityDescription
 ):

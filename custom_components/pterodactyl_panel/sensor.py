@@ -18,7 +18,7 @@ from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from .entity import PterodactylEntity, PterodactylEntityDescription
 
 
-@dataclass
+@dataclass(frozen=True, kw_only=True)
 class PterodactylSensorEntityDescription(
     PterodactylEntityDescription, SensorEntityDescription
 ):
