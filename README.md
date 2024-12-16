@@ -26,9 +26,11 @@ Go to Account Settings -> API Credentials -> Create API Key.
 ## Currently Available Sensors
 ### Button
 #### Server
-- Start
-- Stop
 - Restart
+
+### Switch
+#### Server
+- Power Switch
 
 ### Binary Sensor
 #### Server
