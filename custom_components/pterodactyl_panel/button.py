@@ -27,14 +27,6 @@ BUTTONS: Final[list[PterodactylButtonEntityDescription]] = [
         key="server_restart",
         translation_key="pterodactyl_server_restart",
     ),
-    PterodactylButtonEntityDescription(
-        key="server_start",
-        translation_key="pterodactyl_server_start",
-    ),
-    PterodactylButtonEntityDescription(
-        key="server_stop",
-        translation_key="pterodactyl_server_stop",
-    ),
 ]
 
 

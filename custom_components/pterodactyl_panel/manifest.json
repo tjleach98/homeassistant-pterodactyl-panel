@@ -13,5 +13,5 @@
   "requirements": [
     "py-dactyl==v2.0.4"
   ],
-  "version":"0.0.1"
+  "version":"0.0.2"
 }

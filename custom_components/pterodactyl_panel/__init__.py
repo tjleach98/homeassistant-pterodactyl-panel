@@ -20,7 +20,7 @@ from .coordinator import PterodactylServerCoordinator
 
 _LOGGER: logging.Logger = logging.getLogger(__package__)
 
-PLATFORMS: Final[list[str]] = [Platform.BINARY_SENSOR, Platform.BUTTON, Platform.SENSOR]
+PLATFORMS: Final[list[str]] = [Platform.BINARY_SENSOR, Platform.BUTTON, Platform.SENSOR, Platform.SWITCH]
 
 STARTUP_MESSAGE: Final = f"Starting setup for {DOMAIN}"
 

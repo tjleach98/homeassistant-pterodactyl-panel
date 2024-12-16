@@ -70,6 +70,11 @@
       "pterodactyl_server_restart": {
         "name": "Restart"
       }
+    },
+    "switch": {
+      "pterodactyl_server_power_switch": {
+        "name": "Power Switch"
+      }
     }
   }
 }
