@@ -71,6 +71,7 @@ SENSORS: Final[list[PterodactylSensorEntityDescription]] = [
         native_unit_of_measurement=UnitOfInformation.BYTES,
         suggested_unit_of_measurement=UnitOfInformation.GIGABYTES,
         suggested_display_precision=2,
+        entity_registry_enabled_default=False,
     ),
     PterodactylSensorEntityDescription(
         key="network_tx",
@@ -81,6 +82,7 @@ SENSORS: Final[list[PterodactylSensorEntityDescription]] = [
         native_unit_of_measurement=UnitOfInformation.BYTES,
         suggested_unit_of_measurement=UnitOfInformation.GIGABYTES,
         suggested_display_precision=2,
+        entity_registry_enabled_default=False,
     ),
     PterodactylSensorEntityDescription(
         key="node",
