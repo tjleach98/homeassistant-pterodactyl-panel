@@ -1,3 +1,6 @@
+> [!WARNING]
+> There is now a [core integration](https://www.home-assistant.io/integrations/pterodactyl/) available that covers these features. Please transition to that integration.
+
 [![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/tjleach98/homeassistant-pterodactyl-panel/.github%2Fworkflows%2Fvalidate.yml?style=flat-square&label=validate)](https://github.com/tjleach98/homeassistant-pterodactyl-panel/actions/workflows/validate.yml)
 [![GitHub Release](https://img.shields.io/github/release/tjleach98/homeassistant-pterodactyl-panel.svg?style=flat-square)](https://github.com/tjleach98/homeassistant-pterodactyl-panel/releases)
 [![GitHub](https://img.shields.io/github/license/tjleach98/homeassistant-pterodactyl-panel.svg?style=flat-square)](LICENSE)
